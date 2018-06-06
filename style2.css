@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: sans-serif;
+}
+
+.myfriends{
+	overflow: hidden;
+	text-align: center;
+	background: #ff9ec1;
+	margin-top: 60px;
+	padding: 60px; 
+}
+
+.myfriends h1{
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 40px;
+	font-size: 40px;
+}
+
+.myfriends h6{
+	color: white;
+	font-family: sans-serif;
+}
+
+.border{
+	display: block;
+	width: 160px;
+	height: 5px;
+	background: #f2658d;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.fpic a{
+	display: inline-block;
+	margin: 0 30px;
+	overflow: hidden;
+	border-radius: 50%;
+	height: 160px;
+	width: 160px;
+}
+
+.fpic a img{
+	height: 170px;
+	width: 170px;
+	filter: grayscale(100%);
+	transition: 0.4s all;
+}
+
+.fpic a:hover > img{
+	filter: none;
+}
+
+.section{
+	width: 600px;
+	margin: auto;
+	text-align: justify;
+	color: white;
+	font-size: 20px;
+	height: 0;
+	overflow: hidden;
+}
+
+.section:target{
+	height: auto;
+}
+
+.name{
+	display: block;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 20px;
+}

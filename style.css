@@ -1,0 +1,50 @@
+.body{
+	padding: 0px;
+	margin:0px;
+	height: 100px;
+}
+
+a{
+	font-size: 16px;	
+}
+
+.btn{
+	background: pink;
+}
+
+.container-fluid{
+	margin-top: 10px;
+}
+.jumbotron{
+	background-image: url("23.jpg"); 
+	color: red;
+	width: 70%;
+	border-radius: 40px;
+}
+
+.card-img-top{
+	max-height: 200px;
+	border-radius: 10px;
+}
+
+.card{
+	border-radius: 40px;
+}
+.card-title{
+	color: #FF1493;
+	font-weight: bold;
+}
+.display-4{
+	font-weight: bolder;
+	font-family: Times New Roman, Times, serif;
+	color: #FF69B4;
+}
+
+.footer{
+	position: fixed;
+	width: 100%
+	background-color:#f788e6;
+	text-align: center;
+	color: white;
+	
+}
